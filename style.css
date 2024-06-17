@@ -64,6 +64,11 @@ border-radius: 5px;
 }
 .button:hover{
   background-color: #344C64;
+  color: white;
+  font-family: 'Cormorant Garamond',serif;
+  font-weight: 500;
+  font-size: x-large;
+  line-height: 1.2;
 }
 ul{
   padding-inline-start: 0px;
