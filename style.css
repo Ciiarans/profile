@@ -61,6 +61,11 @@ li {
 background-color: #577b8daf;
 padding: 7px;
 border-radius: 5px;
+color: white;
+font-family: 'Cormorant Garamond',serif;
+font-weight: 500;
+font-size: x-large;
+line-height: 1.2;
 }
 .button:hover{
   background-color: #344C64;
