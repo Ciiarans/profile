@@ -1,0 +1,78 @@
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+body{
+  background-color: #e8f7f5;
+
+}
+h1{
+  font-family: 'Libre baskerville',serif;
+  font-weight: 700;
+  font-size: 35px;
+  color : #577B8D;
+  padding: 10px;
+
+}
+p,h2,h3 {
+  font-family: 'Cormorant Garamond',serif;
+  font-weight: 500;
+  font-size: x-large;
+  color: #240750;
+  line-height: 1.2;
+}
+img{
+  border-radius: 40px;
+}
+a {
+  color: #83a8bb;
+}
+a:hover{
+  color: #344C64;
+}
+.container{
+  width: 800px;
+  margin:  auto;
+}
+.list_inline{
+  display: inline-block;
+}
+li {
+  padding: 4px;
+}
+.button{
+background-color: #577b8daf;
+padding: 7px;
+border-radius: 5px;
+}
+.button:hover{
+  background-color: #344C64;
+}
+ul{
+  padding-inline-start: 0px;
+}
+.card{
+text-align: center;
+background-color: #e8f7f5;
+box-shadow: 0px 10px 30px #577b8daf;
+border-radius: 5px;
+padding: 20px;
+margin: 70px;
+}
